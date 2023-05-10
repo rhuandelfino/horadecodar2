@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 3</title>
+    <script>
+        
+        var valor1 = parseFloat(prompt("coloque o primeiro valor"));
+        var valor2 = parseFloat(prompt("coloque o segundo valor"));
+        var valor3 = parseFloat(prompt("coloque o terceiro valor"))
+        var maior_valor = 0;
+
+
+        // -- coventer os dados do tipo texto para tipo número
+        valor1 = Number(valor1);   /"10" -> 10/
+        valor2 = Number(valor2);   /"10" -> 10/
+        valor3 = Number(valor3);   /"10" -> 10/
+
+
+        // -- compara os valores
+        if (valor1 > valor2 && valor1 > valor3) { 
+            alert("valor 1 é o maior")
+        } else if(valor1 < valor2 && valor2 > valor3) { 
+            alert("valor 2 é o maior") 
+        } else{
+            alert("valor 3 é o maior") 
+        };
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

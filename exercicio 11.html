@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 11</title>
+    <script>
+        var num1 = parseInt(prompt("Digite o primeiro número:"));
+        var num2 = parseInt(prompt("Digite o segundo número:"));
+        var operacao = parseInt(prompt("Digite a operação desejada:\n1. Adição\n2. Subtração\n3. Divisão\n4. Multiplicação"));
+
+        var resultado;
+
+        if (operacao === 1) {
+            resultado = num1 + num2;
+        } else if (operacao === 2) {
+            resultado = num1 - num2;
+        } else if (operacao === 3) {
+            resultado = num1 / num2;
+        } else if (operacao === 4) {
+            resultado = num1 * num2;
+        } else {
+        alert("Operação inválida!");
+        }
+
+        if (resultado !== undefined) {
+        alert("O resultado da operação é: " + resultado);
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
